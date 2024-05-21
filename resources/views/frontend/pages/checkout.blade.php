@@ -31,7 +31,7 @@
     <!--============================
         CHECK OUT PAGE START
     ==============================-->
-    {{-- <section id="wsus__cart_view">
+    <section id="wsus__cart_view">
         <div class="container">
                 <div class="row">
                     <div class="col-xl-8 col-lg-7">
@@ -196,13 +196,13 @@
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
     <!--============================
         CHECK OUT PAGE END
     ==============================-->
 @endsection
 
-{{-- @push('scripts')
+@push('scripts')
 <script>
     $(document).ready(function(){
         $.ajaxSetup({
@@ -265,4 +265,4 @@
         })
     })
 </script>
-@endpush --}}
+@endpush
